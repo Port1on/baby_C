@@ -8,6 +8,7 @@ int main(void)
     for(j = 1; j < 6; j++)
     {
         key = A[j];
+        //Insert A[i] into the sored sequence A[1.. j-1].
         i = j-1;
         while(i>=0 && A[i]>key)
         {
